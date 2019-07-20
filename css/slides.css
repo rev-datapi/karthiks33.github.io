@@ -1,5 +1,4 @@
-/* Style for our header texts
-* --------------------------------------- */
+
 h1 {
 	font-size: 4em;
 	font-family: 'Lato';
@@ -11,15 +10,6 @@ p {
 	margin: 0;
 	padding: 0;
 }
-
-/* Centered texts in each section
-* --------------------------------------- */
-/* .section{
-	text-align:center;
-} */
-
-/* Overwriting styles for control arrows for slides
-* --------------------------------------- */
 .controlArrow.prev {
 	left: 50px;
 }
@@ -27,8 +17,6 @@ p {
 	right: 50px;
 }
 
-/* Backgrounds will cover all the section
-* --------------------------------------- */
 .section {
 	background-size: cover;
 }
@@ -36,12 +24,8 @@ p {
 	background-size: cover;
 }
 
-/* Defining each section background and styles
-* --------------------------------------- */
-/* Introduction
-* --------------------------------------- */
 #title {
-	background-image: url(../imgs/storefront.jpg);
+	background-image: url(../imgs/shopping_image.jpg);
 }
 #title_text {
 	top: 5%;
@@ -52,26 +36,33 @@ p {
 	padding: 0;
 	margin: 0;
 }
-/* About the Visualization
-* --------------------------------------- */
+
 #about {
-	background-image: url(../imgs/about.jpg);
+	background-image: url(../imgs/market_growth.jpg);
 	padding: 3% 6% 6% 6%;
 }
 #background_bw {
 	background-image: url(../imgs/background_bw.jpg);
 	padding: 3% 0 0 0;
 }
-/* Yelp Data
-* --------------------------------------- */
+
+#background_bw1 {
+    background-image: url(../imgs/background_bw.jpg);
+    padding: 3% 0 0 0;
+}
+
+#background_bw2 {
+    background-image: url(../imgs/background_bw.jpg);
+    padding: 3% 0 0 0;
+}
+
 #survey{
 	background-image: url(../imgs/survey.jpg);
 	padding: 3% 60% 6% 6%;
 }
-/* Reviews Overview
-* --------------------------------------- */
+
 #bubble_title {
-  margin: 30px;
+  margin: 1px;
 }
 #bubble_content {
   position: absolute;
@@ -86,7 +77,7 @@ p {
   width: 70%;
 }
 #bubble_text {
-  margin: 30px;
+  margin: 40px;
   left: 5%;
   padding: 10px;
   float: left;
@@ -151,14 +142,12 @@ p {
   background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
   background: rgba(255, 255, 255, 0.7);	  
 }
-/* Findings
-* --------------------------------------- */
+
 #analytics{
 	background-image: url(../imgs/analytics.jpg);
 	padding: 3% 60% 6% 6%;
 }
-/* References
-* --------------------------------------- */
+
 #acks {
 	background-image: url(../imgs/table.jpg);
 	padding: 3% 52% 6% 6%;
@@ -172,7 +161,7 @@ p {
     font-weight: bold;
     color: #000;
 }
-/* Style for links */
+
 #acks_div ul {
 	list-style-image: url('../imgs/link.ico')
 }

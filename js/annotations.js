@@ -22,13 +22,13 @@ const bubble_product_annotations = [
         type: d3.annotationLabel,
         note: {
             title: "Market Share by Product",
-            label: "Footwear got the highest market share compared to other products.This shows domination of footwear products and also how widely people buy it often",
+            label: "Footwear got the highest market share compared to other products.",
             wrap: 190
         },
-        x: 400,
-        y: 550,
-        dy: -100,
-        dx: -90
+        x: 280,
+        y: 520,
+        dy: -160,
+        dx: -130
     }];
 
 const bubble_product_makeAnnotations = d3.annotation()

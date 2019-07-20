@@ -9,36 +9,32 @@ function bubbleChart() {
         AP: {x: 3 * width / 16, y: height / 3},
         AS: {x: width / 3.7, y: 2 * height / 3},
         EE: {x: 3 * width / 8, y: height / 3},
-        //LA: {x: width / 2, y: 2 * height / 3},
-        WE: {x: width / 2, y: 2 * height / 2.75},
+        WE: {x: width / 2, y: 2 * height / 3.05},
         ME: {x: 5 * width / 7.5, y: height / 3},
         NA: {x: 2 * width / 2.75, y: 2 * height / 3},
-        //WE: {x: 13 * width / 15, y: height / 3}
         LA: {x: 13 * width / 15, y: height / 3}
-    }
+    };
 
     var regionTitles = {
         AP: {x: width / 10, y: height / 8},
         AS: {x: 9 * width / 39, y: 9 * height / 15},
         EE: {x: 7 * width / 20, y: height / 8},
-        //LA: {x: width / 2, y: 9 * height / 15},
-        WE: {x: width / 2, y: 9 * height / 15},
+        WE: {x: width / 2, y: 9 * height / 17},
         ME: {x: 13 * width / 20, y: height / 8},
         NA: {x: 31 * width / 41, y: 9 * height / 15},
-        //WE: {x: 8 * width / 9, y: height / 8}
         LA: {x: 8 * width / 9, y: height / 8}
-    }
+    };
 
     var productCenters = {
-        Apparel: {x: 3 * width / 16, y: height / 2.7},
-        Footwear: {x: width / 3, y: 2 * height / 2.7},
-        Sportswear: {x: 3 * width / 5.5, y: height / 2.8}
-    }
+        Apparel: {x: 3 * width / 16, y: height / 3.9},
+        Footwear: {x: width / 3, y: 2 * height / 4.2},
+        Sportswear: {x: 3 * width / 6.5, y: height / 3.9}
+    };
     var productTitles = {
-        Apparel: {x: 3 * width / 16.5, y: height / 6},
-        Footwear: {x: width / 3, y: 2 * height / 2},
-        Sportswear: {x: 3 * width / 5, y: height / 6}
-    }
+        Apparel: {x: 3 * width / 18.5, y: height / 20},
+        Footwear: {x: width / 3, y: 2 * height / 5.8},
+        Sportswear: {x: 3 * width / 6, y: height / 18}
+    };
 
     var forceStrength = 0.03;
     var bubbles = null;
