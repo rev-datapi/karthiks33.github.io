@@ -36,41 +36,17 @@ const bubble_product_makeAnnotations = d3.annotation()
     .annotations(bubble_product_annotations);
 
 // Annotations for Zoomable Sunburst
-const zoom_annotations = [       
+const zoom_annotations = [
 {
     type: d3.annotationLabel,
     note: {
-    title: "Clustered in NV",
-    label: "Top 25 most reviewed is mostly clustered around NV as shown by the outer ring with the same location",
-    wrap: 190
-    },
-    x: 300,
-    y: 175,
-    dy: -75,
-    dx: -120
-},
-{
-    type: d3.annotationLabel,
-    note: {
-    title: "Top Most Reviewed",
-    label: "American (New) restaurant category is the most reviewed restaurant category aggregated across all reviews",
+    title: "Highest Market Share",
+    label: "Countries of Western Europe has the highest market share compared to other regions. The same can be seen in the bubble chart in the above ",
     wrap: 190
     },
     x: 650,
     y: 200,
     dy: -100,
-    dx: 200
-},
-{
-    type: d3.annotationLabel,
-    note: {
-    title: "Aggregated Others",
-    label: "Collection of other categories ranked 25 and onwards",
-    wrap: 190
-    },
-    x: 700,
-    y: 500,
-    dy: 150,
     dx: 200
 }]
 

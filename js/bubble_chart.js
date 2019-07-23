@@ -210,6 +210,7 @@ function bubbleChart() {
             .data(titleData);
 
         titles.enter().append('text')
+            .style('fill','#000000')
             .attr('class', titleClass)
             .attr('x', function (d) {
                 return title[d].x;
