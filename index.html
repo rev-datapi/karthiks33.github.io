@@ -19,31 +19,28 @@
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,900' rel='stylesheet' type='text/css'>
 
-	<!--[if IE]>
+
 		<script type="text/javascript">
 			 var console = { log: function() {} };
 		</script>
 	<![endif]-->
 
-	<!-- import d3.v3 -->
+
 	<script type="text/javascript" src="js/d3.v3.js"></script>
 
-	<!-- import fullPage -->
+
     <script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
 
-	<!-- import d3.v4 -->
+
 	<script type="text/javascript" src="js/d3.min.js"></script>
 	<script type="text/javascript" src="js/d3-annotation.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				verticalCentered: false,
-				anchors: ['intro', 'datavis', 'yelpdata', 'reviews', 'top25', 'checkins', 'findings', 'ref'],
 				navigation: true,
 				navigationPosition: 'right',
-				navigationTooltips: ['Introduction', '​About the Visualization', 'Yelp Dataset', 'Reviews Overview', 'Top 25 Categories', 'NV Checkins', 
-					'Findings', 'References']
 			});});
 	</script>
 
@@ -53,26 +50,40 @@
 	<div class="section" id="title">
 		<div id="title_text">
 			<h1>Maket Share Analysis</h1>
-			<h3>A d3 visualization on the market share for the products <b>Apparel, Footswear and Sportwear</b> for the period <b>2016-2017</b> across the Globe</h3>
+			<h3>A d3 visualization on the market share across all the countires in the world for the products <b>Apparel, Footswear and Sportwear</b> for the period <b>2016-2017</b></h3>
 		</div>
 	</div>
 	<div class="section" id="about">
 		<div id="content_div">
 			<h1>About the Visualization</h1>
-			<p> To be done</p>
+			<p> This data visualization displays the market share analysis in different visuals. Data used for the visualization is related to the growth percentage in products sold in three categories - Apparels , Footwears, and Sportswear for the year 2016-2017 <br/>
+				Visualization represents the market share of data across all the regions of the globe and also the market share in its respective countries. </p>
 			<h2>Recommended Settings</h2>
-			<p>As the visualizations use a preset static canvas of 1024x768 pixels, the viewing size of the interactive visualization is at 
-				least 1280x800 pixels to accommodate the surrounding text and scene elements.</p>
-			<h2>Managing the Dataset</h2>
-			<p>.To be done</p>
-			<h2>Templates Scene</h2>
-			<p>.To be done</p>
+			<p>Most of the visualizations use the canvas of 1024x768 pixels and henceforth,  the recommended viewing size of the interactive visualization is 1280x800 pixels.</p>
+			<h2>Visualization</h2>
+			<p>Three visualizations are used to represent the data.<br/><br/>
+				<u>Bubble Chart</u><br/>
+				Provides information about the complete dataset and also categorizes  based on product and region<br/><br/>
+				<u>Zoomable Sunburst Chart</u><br/>
+				Provides information in an aggregated format. Aggregation is done based on regions and its countries<br/><br/>
+				<u>Bar Chart</u><br/>
+				Provides information about the top ten countries<br/>
+			</p>
 			<h2>Annotations</h2>
-			<p>.To be done</p>
+			<p>Annotations have been used in all three visualizations. For instance, in bubble and sunburst chart they have been used to indicate the highest percentage division.</p>
 			<h2>Parameters and Triggers</h2>
-			<p>.To be done</p><br />
-			<p>.To be done</p><br />
-			<p>.To be done</p>
+			<p>Parameters and Triggers are used across the visualizations.<br/><br/>
+				<u>Bubble Chart Visualization</u><br/>
+				In the bubble chart, three parameters are used<br/><br/>
+				<ul>
+			<li>Overall Market Share Data</li>
+			<li>Market Share By Region</li>
+			<li>Market Share By Product</li>
+			  </ul>
+				On selection of the respective parameters by the user, a trigger will change the bubble’s x,y co-ordinates parameter to their respective groupings.<br/><br/>
+			<u>Zoomable Sunburst Visualization</u><br/><br/>
+				Parameters and triggers are used based on the user mouse click actions. By clicking the region, the trigger zooms into the data and provides underneath information.<br/>
+				By clicking the center, it will trigger the parameters to return to its values one up in the hierarchy.<br/>
 		</div>
 	</div>
 
